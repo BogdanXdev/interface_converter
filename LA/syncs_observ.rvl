@@ -1,0 +1,39 @@
+<Project ModBy="Inserter" SigType="0" Name="C:/Users/Bogdan/Desktop/111_lvds - Copy/111_lvds - Copy/lifcl17_tamr16b_lvds/source/impl_1/syncs_observ.rvl" Date="2022-11-10">
+    <IP Version="1_6_042617"/>
+    <Design DesignName="lifcl17_tamr16b_lvds" Synthesis="lse" DeviceFamily="LIFCL" DesignEntry="Schematic/Mixed HDL" JTAG="hard"/>
+    <Core ID="0" Reveal_sig="450155312" Name="top_tx_dphy_LA0" Insert="1" InsertDataset="0">
+        <Setting>
+            <Clock SampleClk="sample_clk" SampleEnable="0" EnableClk="" EnableClk_Pri="0"/>
+            <TraceBuffer BufferDepth="16384" hasTimeStamp="0" BitTimeStamp="0" Implementation="0" IncTrigSig="0"/>
+            <Capture Mode="0" MinSamplesPerTrig="128"/>
+            <Event CntEnable="0" MaxEventCnt="8"/>
+            <TrigOut EnableTrigOut="0" MinPulseWidth="0" TrigOutNetType="1" TrigOutNet="reveal_debug_tamron_test_LA0_net" Polarity="0"/>
+            <DistRAM Disable="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Sig Name="syncs/lvds_clk_in" Type="SIG"/>
+                <Sig Name="syncs/lv_reg_o" Type="SIG"/>
+                <Sig Name="syncs/fv_reg_o" Type="SIG"/>
+                <Bus Name="syncs/delayed_data_o">
+                    <Sig Name="syncs/delayed_data_o:0" Type="SIG"/>
+                    <Sig Name="syncs/delayed_data_o:1" Type="SIG"/>
+                    <Sig Name="syncs/delayed_data_o:2" Type="SIG"/>
+                    <Sig Name="syncs/delayed_data_o:3" Type="SIG"/>
+                    <Sig Name="syncs/delayed_data_o:4" Type="SIG"/>
+                    <Sig Name="syncs/delayed_data_o:5" Type="SIG"/>
+                    <Sig Name="syncs/delayed_data_o:6" Type="SIG"/>
+                    <Sig Name="syncs/delayed_data_o:7" Type="SIG"/>
+                    <Sig Name="syncs/delayed_data_o:8" Type="SIG"/>
+                    <Sig Name="syncs/delayed_data_o:9" Type="SIG"/>
+                    <Sig Name="syncs/delayed_data_o:10" Type="SIG"/>
+                    <Sig Name="syncs/delayed_data_o:11" Type="SIG"/>
+                    <Sig Name="syncs/delayed_data_o:12" Type="SIG"/>
+                    <Sig Name="syncs/delayed_data_o:13" Type="SIG"/>
+                    <Sig Name="syncs/delayed_data_o:14" Type="SIG"/>
+                    <Sig Name="syncs/delayed_data_o:15" Type="SIG"/>
+                </Bus>
+            </Trace>
+        </Dataset>
+    </Core>
+</Project>

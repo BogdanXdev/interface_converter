@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<RadiantModule architecture="LIFCL" date="2022 11 03 11:43:15" device="LIFCL-17" generator="ipgen" library="ip" module="dphy_tx" name="mipi_tx_dphy_csi2" package="QFN72" source_format="Verilog" speed="7_High-Performance_1.0V" vendor="latticesemi.com" version="1.7.2">
+ <Package>
+  <File modified="2022 11 03 11:43:14" name="rtl/mipi_tx_dphy_csi2_bb.v" type="black_box_verilog"/>
+  <File modified="2022 11 03 11:43:14" name="mipi_tx_dphy_csi2.cfg" type="cfg"/>
+  <File modified="2022 11 03 11:43:14" name="misc/mipi_tx_dphy_csi2_tmpl.v" type="template_verilog"/>
+  <File modified="2022 11 03 11:43:14" name="misc/mipi_tx_dphy_csi2_tmpl.vhd" type="template_vhdl"/>
+  <File modified="2022 11 03 11:43:15" name="rtl/mipi_tx_dphy_csi2.v" type="top_level_verilog"/>
+  <File modified="2022 11 03 11:43:15" name="constraints/mipi_tx_dphy_csi2.ldc" type="timing_constraints"/>
+  <File modified="2022 11 03 11:43:15" name="testbench/dut_params.v" type="dependency_file"/>
+  <File modified="2022 11 03 11:43:15" name="testbench/dut_inst.v" type="dependency_file"/>
+  <File modified="2022 11 03 11:43:15" name="component.xml" type="IP-XACT_component"/>
+  <File modified="2022 11 03 11:43:15" name="design.xml" type="IP-XACT_design"/>
+  <File modified="2022 10 21 13:52:17" name="testbench/lscc_dphy_tx_model.v" type="testbench_verilog"/>
+  <File modified="2022 10 21 13:52:17" name="testbench/rx_model.v" type="testbench_verilog"/>
+  <File modified="2022 10 21 13:52:17" name="testbench/tb_top.v" type="testbench_verilog"/>
+ </Package>
+</RadiantModule>

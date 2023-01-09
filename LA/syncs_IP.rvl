@@ -1,0 +1,63 @@
+<Project ModBy="Inserter" SigType="0" Name="C:/Users/Bogdan/Desktop/111_lvds - Copy/111_lvds - Copy/lifcl17_tamr16b_lvds/source/impl_1/syncs_IP.rvl" Date="2022-11-08">
+    <IP Version="1_6_042617"/>
+    <Design DesignName="lifcl17_tamr16b_lvds" Synthesis="lse" DeviceFamily="LIFCL" DesignEntry="Schematic/Mixed HDL" JTAG="hard"/>
+    <Core ID="0" Reveal_sig="449888672" Name="top_tx_dphy_LA0" Insert="1" InsertDataset="0">
+        <Setting>
+            <Clock SampleClk="sample_clk" SampleEnable="0" EnableClk="" EnableClk_Pri="0"/>
+            <TraceBuffer BufferDepth="16384" hasTimeStamp="0" BitTimeStamp="0" Implementation="0" IncTrigSig="0"/>
+            <Capture Mode="0" MinSamplesPerTrig="128"/>
+            <Event CntEnable="0" MaxEventCnt="8"/>
+            <TrigOut EnableTrigOut="0" MinPulseWidth="0" TrigOutNetType="1" TrigOutNet="reveal_debug_lifcl17_tamr16b_lvds_LA0_net" Polarity="0"/>
+            <DistRAM Disable="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Bus Name="syncs/syncs_del_reg[3:0]">
+                    <Sig Name="syncs/syncs_del_reg:0:0" Type="SIG"/>
+                    <Sig Name="syncs/syncs_del_reg:0:1" Type="SIG"/>
+                    <Sig Name="syncs/syncs_del_reg:1:0" Type="SIG"/>
+                    <Sig Name="syncs/syncs_del_reg:1:1" Type="SIG"/>
+                    <Sig Name="syncs/syncs_del_reg:2:0" Type="SIG"/>
+                    <Sig Name="syncs/syncs_del_reg:2:1" Type="SIG"/>
+                    <Sig Name="syncs/syncs_del_reg:3:0" Type="SIG"/>
+                    <Sig Name="syncs/syncs_del_reg:3:1" Type="SIG"/>
+                </Bus>
+                <Bus Name="syncs/parallel_data_in">
+                    <Sig Name="syncs/parallel_data_in:8" Type="SIG"/>
+                    <Sig Name="syncs/parallel_data_in:9" Type="SIG"/>
+                    <Sig Name="syncs/parallel_data_in:10" Type="SIG"/>
+                    <Sig Name="syncs/parallel_data_in:11" Type="SIG"/>
+                    <Sig Name="syncs/parallel_data_in:12" Type="SIG"/>
+                    <Sig Name="syncs/parallel_data_in:13" Type="SIG"/>
+                    <Sig Name="syncs/parallel_data_in:14" Type="SIG"/>
+                    <Sig Name="syncs/parallel_data_in:15" Type="SIG"/>
+                </Bus>
+                <Sig Name="syncs/lvds_clk_in" Type="SIG"/>
+                <Sig Name="syncs/fv_reg_o" Type="SIG"/>
+                <Sig Name="syncs/lv_reg_o" Type="SIG"/>
+            </Trace>
+            <Trigger>
+                <TU ID="1" Sig="async_reset_n_i," Type="0" Serialbits="0"/>
+                <TU ID="2" Sig="syncs/parallel_data_in:8,syncs/parallel_data_in:9,syncs/parallel_data_in:10,syncs/parallel_data_in:11,syncs/parallel_data_in:12,syncs/parallel_data_in:13,syncs/parallel_data_in:14,syncs/parallel_data_in:15," Type="0" Serialbits="0"/>
+                <TU ID="3" Sig="syncs/fv_reg_o," Type="0" Serialbits="0"/>
+                <TU ID="4" Sig="syncs/lv_reg_o," Type="0" Serialbits="0"/>
+                <TU ID="5" Sig="syncs/data_reg:3:8,syncs/data_reg:3:9,syncs/data_reg:3:10,syncs/data_reg:3:11,syncs/data_reg:3:12,syncs/data_reg:3:13,syncs/data_reg:3:14,syncs/data_reg:3:15," Type="0" Serialbits="0"/>
+                <TU ID="6" Sig="syncs/data_reg:2:8,syncs/data_reg:2:9,syncs/data_reg:2:10,syncs/data_reg:2:11,syncs/data_reg:2:12,syncs/data_reg:2:13,syncs/data_reg:2:14,syncs/data_reg:2:15," Type="0" Serialbits="0"/>
+                <TU ID="7" Sig="syncs/data_reg:1:8,syncs/data_reg:1:9,syncs/data_reg:1:10,syncs/data_reg:1:11,syncs/data_reg:1:12,syncs/data_reg:1:13,syncs/data_reg:1:14,syncs/data_reg:1:15," Type="0" Serialbits="0"/>
+                <TU ID="8" Sig="syncs/data_reg:0:8,syncs/data_reg:0:9,syncs/data_reg:0:10,syncs/data_reg:0:11,syncs/data_reg:0:12,syncs/data_reg:0:13,syncs/data_reg:0:14,syncs/data_reg:0:15," Type="0" Serialbits="0"/>
+                <TU ID="9" Sig="syncs/syncs_del_reg:0:1," Type="0" Serialbits="0"/>
+                <TU ID="10" Sig="syncs/syncs_del_reg:0:0," Type="0" Serialbits="0"/>
+                <TE ID="1" MaxSequence="2" MaxEvnCnt="1" Resource="0"/>
+                <TE ID="2" MaxSequence="2" MaxEvnCnt="1" Resource="0"/>
+                <TE ID="3" MaxSequence="2" MaxEvnCnt="1" Resource="0"/>
+                <TE ID="4" MaxSequence="2" MaxEvnCnt="1" Resource="0"/>
+                <TE ID="5" MaxSequence="2" MaxEvnCnt="1" Resource="0"/>
+                <TE ID="6" MaxSequence="2" MaxEvnCnt="1" Resource="0"/>
+                <TE ID="7" MaxSequence="2" MaxEvnCnt="1" Resource="0"/>
+                <TE ID="8" MaxSequence="2" MaxEvnCnt="1" Resource="0"/>
+                <TE ID="9" MaxSequence="2" MaxEvnCnt="1" Resource="0"/>
+                <TE ID="10" MaxSequence="2" MaxEvnCnt="1" Resource="0"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

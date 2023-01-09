@@ -1,0 +1,71 @@
+<Project ModBy="Inserter" SigType="0" Name="C:/Users/Bogdan/Desktop/111_lvds - Copy/111_lvds - Copy/lifcl17_tamr16b_lvds/source/impl_1/txdhy_observation.rvl" Date="2022-11-10">
+    <IP Version="1_6_042617"/>
+    <Design DesignName="lifcl17_tamr16b_lvds" Synthesis="lse" DeviceFamily="LIFCL" DesignEntry="Schematic/Mixed HDL" JTAG="hard"/>
+    <Core ID="0" Reveal_sig="450155307" Name="top_tx_dphy_LA0" Insert="1" InsertDataset="0">
+        <Setting>
+            <Clock SampleClk="sample_clk" SampleEnable="0" EnableClk="" EnableClk_Pri="0"/>
+            <TraceBuffer BufferDepth="16384" hasTimeStamp="0" BitTimeStamp="0" Implementation="0" IncTrigSig="0"/>
+            <Capture Mode="0" MinSamplesPerTrig="128"/>
+            <Event CntEnable="0" MaxEventCnt="8"/>
+            <TrigOut EnableTrigOut="0" MinPulseWidth="0" TrigOutNetType="1" TrigOutNet="reveal_debug_flir_tau2_LA0_net" Polarity="0"/>
+            <DistRAM Disable="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Bus Name="tx_dphy/wc_i">
+                    <Sig Name="tx_dphy/wc_i:0" Type="SIG"/>
+                    <Sig Name="tx_dphy/wc_i:1" Type="SIG"/>
+                    <Sig Name="tx_dphy/wc_i:2" Type="SIG"/>
+                    <Sig Name="tx_dphy/wc_i:3" Type="SIG"/>
+                    <Sig Name="tx_dphy/wc_i:4" Type="SIG"/>
+                    <Sig Name="tx_dphy/wc_i:5" Type="SIG"/>
+                    <Sig Name="tx_dphy/wc_i:6" Type="SIG"/>
+                    <Sig Name="tx_dphy/wc_i:7" Type="SIG"/>
+                    <Sig Name="tx_dphy/wc_i:8" Type="SIG"/>
+                    <Sig Name="tx_dphy/wc_i:9" Type="SIG"/>
+                    <Sig Name="tx_dphy/wc_i:10" Type="SIG"/>
+                    <Sig Name="tx_dphy/wc_i:11" Type="SIG"/>
+                    <Sig Name="tx_dphy/wc_i:12" Type="SIG"/>
+                    <Sig Name="tx_dphy/wc_i:13" Type="SIG"/>
+                    <Sig Name="tx_dphy/wc_i:14" Type="SIG"/>
+                    <Sig Name="tx_dphy/wc_i:15" Type="SIG"/>
+                </Bus>
+                <Sig Name="tx_dphy/sp_en_i" Type="SIG"/>
+                <Sig Name="tx_dphy/reset_n_i" Type="SIG"/>
+                <Sig Name="tx_dphy/pll_lock_i" Type="SIG"/>
+                <Sig Name="tx_dphy/pll_clkop_i" Type="SIG"/>
+                <Sig Name="tx_dphy/pd_dphy_i" Type="SIG"/>
+                <Sig Name="tx_dphy/lp_en_i" Type="SIG"/>
+                <Bus Name="tx_dphy/dt_i">
+                    <Sig Name="tx_dphy/dt_i:0" Type="SIG"/>
+                    <Sig Name="tx_dphy/dt_i:1" Type="SIG"/>
+                    <Sig Name="tx_dphy/dt_i:2" Type="SIG"/>
+                    <Sig Name="tx_dphy/dt_i:3" Type="SIG"/>
+                    <Sig Name="tx_dphy/dt_i:4" Type="SIG"/>
+                    <Sig Name="tx_dphy/dt_i:5" Type="SIG"/>
+                </Bus>
+                <Sig Name="tx_dphy/d_hs_en_i" Type="SIG"/>
+                <Sig Name="tx_dphy/clk_hs_en_i" Type="SIG"/>
+                <Bus Name="tx_dphy/byte_or_pkt_data_i">
+                    <Sig Name="tx_dphy/byte_or_pkt_data_i:0" Type="SIG"/>
+                    <Sig Name="tx_dphy/byte_or_pkt_data_i:1" Type="SIG"/>
+                    <Sig Name="tx_dphy/byte_or_pkt_data_i:2" Type="SIG"/>
+                    <Sig Name="tx_dphy/byte_or_pkt_data_i:3" Type="SIG"/>
+                    <Sig Name="tx_dphy/byte_or_pkt_data_i:4" Type="SIG"/>
+                    <Sig Name="tx_dphy/byte_or_pkt_data_i:5" Type="SIG"/>
+                    <Sig Name="tx_dphy/byte_or_pkt_data_i:6" Type="SIG"/>
+                    <Sig Name="tx_dphy/byte_or_pkt_data_i:7" Type="SIG"/>
+                    <Sig Name="tx_dphy/byte_or_pkt_data_i:8" Type="SIG"/>
+                    <Sig Name="tx_dphy/byte_or_pkt_data_i:9" Type="SIG"/>
+                    <Sig Name="tx_dphy/byte_or_pkt_data_i:10" Type="SIG"/>
+                    <Sig Name="tx_dphy/byte_or_pkt_data_i:11" Type="SIG"/>
+                    <Sig Name="tx_dphy/byte_or_pkt_data_i:12" Type="SIG"/>
+                    <Sig Name="tx_dphy/byte_or_pkt_data_i:13" Type="SIG"/>
+                    <Sig Name="tx_dphy/byte_or_pkt_data_i:14" Type="SIG"/>
+                    <Sig Name="tx_dphy/byte_or_pkt_data_i:15" Type="SIG"/>
+                </Bus>
+                <Sig Name="tx_dphy/byte_or_pkt_data_en_i" Type="SIG"/>
+            </Trace>
+        </Dataset>
+    </Core>
+</Project>
